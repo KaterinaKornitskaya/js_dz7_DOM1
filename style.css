@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.divTask1, .divTask2{
+    width: 50%;
+    margin: 50px auto;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+p{
+    margin: 8px;
+}
+
+textarea{
+    width: 100%;
+    padding: 4px;
+}
+
+dt{
+    background-color: rgb(38, 100, 100);
+    border-radius: 8px 8px 0 0;
+    border-bottom: none;
+    padding: 8px;
+    margin: 8px;
+}
+
+dd{
+    background-color: rgb(48, 128, 128);
+    border-radius: 0 0 8px 8px;
+    border-bottom: none;
+    padding: 8px;
+    margin: 8px;
+    margin-top: -8px;
+}
+
+.ddDisplayNone{
+    display: none;
+}
+
+.ddShow{
+    display: block;
+}
